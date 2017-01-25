@@ -1,12 +1,11 @@
 from lol import More
 
-
 courses = []
 def print_courses():
 
 
-for lol in courses:
-    print('{0}',
+    for lol in courses:
+        print('{0}',
           print(),
           '{1}',
           print(),
@@ -21,7 +20,17 @@ for lol in courses:
           '{6}',
           print(),
           '{7}.'.format(lol.coursename, lol.qualification, lol.description, lol.whystudy, lol.requirements, lol.opportunities, lol.testimonials))
-    print()
+          print()
+
+def main():
+    c1 = Art
+    courses.append(c1)
+    c2 = Biology
+    courses.append(c2)
+    c3 = Business
+    courses.append(c3)
+
+
 
 
 def new_course():

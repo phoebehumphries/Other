@@ -1,4 +1,4 @@
-import maincourse
+from maincourse import main, print_courses,
 
 def menu():
 
@@ -13,7 +13,9 @@ def menu():
         option = input("What do you want to do?")
         if option == '1':
             print()
+
             print_courses()
+            main()
 
         elif option == '2':
             print()

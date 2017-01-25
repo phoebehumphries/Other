@@ -1,4 +1,4 @@
-from maincourse import main, print_courses,
+import maincourse
 
 def menu():
 

@@ -1,5 +1,9 @@
 from lol import More
 
+
+
+
+
 courses = []
 def print_courses():
 
@@ -20,7 +24,7 @@ def print_courses():
           '{6}',
           print(),
           '{7}.'.format(lol.coursename, lol.qualification, lol.description, lol.whystudy, lol.requirements, lol.opportunities, lol.testimonials))
-          print()
+        print()
 
 def main():
     c1 = Art
@@ -31,20 +35,4 @@ def main():
     courses.append(c3)
 
 
-
-
-def new_course():
-    def create_person():
-        ''' User can input their own details '''
-        print()
-        new_coursename= input("What is your first name? ")
-        print()
-        new_qual = input("What is your surname? ")
-        print()
-        new_desc = input("What is your date of birth? Please enter in the form MMM DD YYYY ")
-        print()
-        new_ws = input("Please enter an 11 digit number:")
-        print()
-        new_p0 = Main(new_coursename, new_qual, new_desc, new_ws, new_requirements, new_opportunities, new_testimonials)
-        people.append(new_p0)
-        return new_p0
+print_courses()
